@@ -16,6 +16,8 @@ public class AboutMe2 {
 
         System.out.println("Digite seu sobrenome: ");
         String sobrenome = scanner.next();
+        scanner.close();
+        
 
         System.out.println("Olá me chamo " + nome +" " + sobrenome);
         System.out.println("Minha idade é: " + idade + " anos");
