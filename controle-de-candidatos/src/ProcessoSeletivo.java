@@ -16,7 +16,7 @@ public class ProcessoSeletivo {
         boolean atendeu = false;
 
         do{
-            atendeu = anteder();
+            atendeu = atender();
             continuarTentando = !atendeu;
             if(continuarTentando){
                 tentativasRealizadas++;
@@ -36,7 +36,7 @@ public class ProcessoSeletivo {
 
     }
     // método auxiliar
-    static boolean anteder(){
+    static boolean atender(){
         return new Random().nextInt(3)==1;
     }
 
