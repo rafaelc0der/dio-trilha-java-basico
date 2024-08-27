@@ -10,7 +10,6 @@ public class Contador {
         
 		
 		try {
-			//chamando o método contendo a lógica de contagem
 			contar(parametroUm, parametroDois);
 		
 		}catch (ParametrosInvalidosException e ) {
